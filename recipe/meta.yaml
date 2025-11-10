@@ -1,5 +1,5 @@
 {% set name = "wraptile" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wraptile-{{ version }}.tar.gz
-  sha256: ce6b2b3e37726e979bea35e3134b33a9ea412e347fbe2553e621814986c6bb6b
+  sha256: df1148fb6d1fb0b9237728e3b70a33a5154442234a1c9f8c10c2cff08cc4de03
 
 build:
   entry_points:
