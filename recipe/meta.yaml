@@ -1,5 +1,5 @@
 {% set name = "wraptile" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wraptile-{{ version }}.tar.gz
-  sha256: df1148fb6d1fb0b9237728e3b70a33a5154442234a1c9f8c10c2cff08cc4de03
+  sha256: dbd29f7bdf3eefa5477a411e5e223608c3544195dc0a8aa6c4dde8744fd0b5da
 
 build:
   entry_points:
@@ -29,8 +29,8 @@ requirements:
     - pyyaml
     - typer
     - uvicorn
-    - gavicore >=0.0.7
-    - procodile >=0.0.7
+    - gavicore >=0.0.9
+    - procodile >=0.0.9
 
 test:
   imports:
@@ -56,5 +56,12 @@ about:
 
 extra:
   recipe-maintainers:
+    - AliceBalfanz
+    - b-yogesh
+    - clarasb
     - forman
+    - konstntokas
     - pont-us
+    - TejasMorbagal
+    - thomasstorm
+    - TonioF
