@@ -28,10 +28,10 @@ requirements:
     - fastapi
     - pydantic
     - pyyaml
-    - typer
+    - typer >=0.26.0,<1
     - uvicorn
-    - gavicore >=0.1.2
-    - procodile >=0.1.2
+    - gavicore >=0.2.0
+    - procodile >=0.2.0
 
 test:
   imports:
