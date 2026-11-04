@@ -29,8 +29,8 @@ requirements:
     - pyyaml
     - typer >=0.26.0,<1
     - uvicorn
-    - gavicore >=0.3.0
-    - procodile >=0.3.0
+    - gavicore >=0.4.0
+    - procodile >=0.4.0
 
 test:
   imports:
